@@ -1,10 +1,10 @@
-.main-bg {
-  background-image: url('../image/main-bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.mainBG {
+background-image:url(../image/main-bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
