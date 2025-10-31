@@ -3,8 +3,11 @@
   margin: 0 auto;
 }
 
-.mainBG {
-background-image:url(../image/main-bg.jpg);
+.main-bg {
+background-image: url(/image/main-bg.jpg) ;
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+
+

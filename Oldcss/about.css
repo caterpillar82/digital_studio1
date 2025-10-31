@@ -1,0 +1,35 @@
+.about {
+  display: block;
+}
+
+.about__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.about__wrapper-line {
+  position: relative;
+  top: -65px;
+  width: 317px;
+  height: 1px;
+  background-color: #FFFFFF;
+}
+
+.about__wrapper-info {
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+.about__description {
+  width: 200px;
+  font-size: 30px;
+  color: #FFFFFF;
+  position: relative;
+  top: -100px;
+}
+
+.about__year {
+  font-size: 25px;
+  color: #FFFFFF;
+  text-align: right;
+}
