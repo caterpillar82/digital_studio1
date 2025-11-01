@@ -1,44 +1,66 @@
 .header {
   background: rgba(19, 19, 21, 0.5019607843);
-  padding: 15px 0;
+  padding: 16px 0px;
 }
-.header .wrapper {
+.header_wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  color: #FFFFFF;
+  font-size: 12px;
 }
-.header .wrapper .navigation {
+
+.list {
   display: flex;
   align-items: center;
   gap: 12px;
 }
+.list__item {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 14px;
+}
+.list__item_link-bold {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 22px;
+}
 
-.about {
+.list-item:hover {
+  transform: scale(1.2);
+}
+
+about {
   display: block;
 }
+
 .about__wrapper {
   display: flex;
   align-items: center;
 }
-.about__wrapper__wrapper-line {
+
+.about__wrapper-line {
   position: relative;
   top: -65px;
   width: 317px;
   height: 1px;
   background-color: #FFFFFF;
 }
+
 .about__wrapper-info {
   font-size: 30px;
   color: #FFFFFF;
 }
-.about__wrapper__description {
+
+.about__description {
   width: 200px;
   font-size: 30px;
   color: #FFFFFF;
   position: relative;
   top: -100px;
 }
-.about__wrapper__year {
+
+.about__year {
   font-size: 25px;
   color: #FFFFFF;
   text-align: right;
@@ -107,5 +129,66 @@ table {
 
 a {
   text-decoration: none;
-}/*# sourceMappingURL=style.css.map */
+}
 
+.essential {
+  background-color: rgba(174, 156, 156, 0.2509803922);
+  position: relative;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 111px 0 32px 0;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.wrapper__header {
+  display: flex;
+  align-items: center;
+  font-size: 48px;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  gap: 44px;
+  margin-bottom: 15px;
+}
+
+.wrapper__header-line {
+  position: relative;
+  width: 223px;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.wrapper__header-title {
+  margin-right: 5px;
+}
+
+.wrapper__text {
+  width: 594px;
+  color: #ffffff;
+  margin-left: auto;
+}
+
+.wrapper__text-inner {
+  font-size: 20px;
+  padding-top: 4%;
+}
+
+.wrapper__text-inner:first-child {
+  font-size: 30px;
+  padding-top: 4%;
+  line-height: 1.2;
+}
+
+.wrapper__text-inner:last-child {
+  margin-top: 48px;
+  text-align: right;
+}
+
+.wrapper__shatl {
+  position: absolute;
+  bottom: 74px;
+  left: 45px;
+  filter: blur(5px);
+}/*# sourceMappingURL=style.css.map */
