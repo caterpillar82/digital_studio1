@@ -1,0 +1,43 @@
+.advantages {
+  padding: 128px 0 32px 0;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: 101px;
+
+    &-title {
+      letter-spacing: 0.2em;
+    }
+
+    &-lines {
+      width: 745px;
+      height: 1px;
+      background-color: #ffffff;
+      position: relative;
+      margin-left: 48px;
+    }
+  }
+
+  &__text {
+    display: flex;
+
+    &-column {
+      font-family: roboto;
+      font-size: 32px;
+      flex: 25%;
+      padding: 20px;
+      color: #ffffff;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+
+    &-subcolumn {
+      font-size: 20px;
+      margin-top: 49px;
+    }
+  }
+}
