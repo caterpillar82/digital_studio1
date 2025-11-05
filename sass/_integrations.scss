@@ -1,0 +1,55 @@
+.integrations {
+  padding-top: 137px;
+  padding-bottom: 128px;
+
+  &__header {
+    @include flex (44px);
+    height: 33px;
+    align-items: center;
+
+    @media screen and (max-width: 640px) {
+      flex-direction: column-reverse;
+      justify-content: space-between;
+    }  
+
+
+    &-line {
+      border-bottom: 1px solid black;
+      width: 657px;
+      position: relative;
+
+      @media screen and (max-width: 640px) {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }  
+    }
+
+    &-title {
+      font-size: 28px;
+      font-weight: 10;
+      letter-spacing: 0.2em;
+      white-space: nowrap;
+
+      @media screen and (max-width: 992px) {
+        font-size: 22px;
+        white-space: nowrap;
+      } 
+    }
+  }
+
+  &__services {
+    @include flex (12px);
+    flex-wrap: wrap;
+    margin-top: 68px;
+
+    @media screen and (max-width: 992px) {
+      justify-content: center;
+    } 
+
+    &-logo {
+      height: 100px;
+      width: 190px;
+    }
+  }
+}

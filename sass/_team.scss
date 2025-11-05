@@ -1,31 +1,36 @@
-.advantages {
-  padding: 128px 0 64px 0;
+.team {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  color: $color;
 
   &__header {
-    @include flex (44px);
+    @include flex (284px);
     height: 33px;
     align-items: center;
 
+    @media screen and (max-width: 992px) {
+     gap: 24px;
+    }
+    
     @media screen and (max-width: 640px) {
-        flex-wrap: wrap;
-      }
+      flex-wrap: wrap;
+    }
 
     &-title {
       font-size: 28px;
       font-weight: 10;
       letter-spacing: 0.2em;
       white-space: nowrap;
-      color: $color;
       text-shadow: $shadow;
 
       @media screen and (max-width: 992px) {
         font-size: 22px;
-      }
-      
+      } 
+
       @media screen and (max-width: 640px) {
         margin-left: auto;
         margin-right: auto;
-      } 
+      }
     }
 
     &-line {
@@ -34,58 +39,46 @@
       position: relative;
 
       @media screen and (max-width: 640px) {
-        width: 50%;
         margin-left: auto;
         margin-right: auto;
-      }
+        width: 50%;
+      } 
     }
   }
-    
-  &__texcols {
-    @include flex (12px);
+
+  &__content {
+    @include flex (24px);
     flex-wrap: wrap;
-    color: $color;
+    text-shadow: $shadow;
 
     @media screen and (max-width: 992px) {
-      justify-content: center;  
-    }
+      justify-content: center;
+      gap: 12px;
+    } 
 
-    @media screen and (max-width: 640px) {
+    &-inner {
       text-align: center;
-      gap: 8px;
-    }  
-    
-    &-item {	
-      font-size: 20px;
-      max-width: 291px;
-      text-shadow: $shadow;
-      line-height: normal;
+      margin-top: 52px;
 
-      @media screen and (max-width: 992px) {
-        font-size: 18px;
-        max-width: 342px;
-      } 
-      
       h2 {
+        font-size: 104px;
+
+        @media screen and (max-width: 992px) {
+          font-size: 72px;;
+        } 
+      }
+
+      p {
         font-size: 32px;
-        margin-bottom: 30px;
-        max-width: 291px;
-        text-shadow: $shadow;
-        margin-top: 68px;
+        max-width: 282px;
+        margin-top: 32px;
+        line-height: normal;
 
         @media screen and (max-width: 992px) {
           font-size: 24px;
-          max-width: 342px;
+          max-width: 161px;
         } 
-      } 
-      
-      p {
-        margin-top: 68px;
-
-        @media screen and (max-width: 992px) {
-          margin-top: 0;
-        } 
-      }  
+      }
     }
-  }  
+  }
 }

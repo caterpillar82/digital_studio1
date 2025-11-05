@@ -1,8 +1,10 @@
-@import './header';
-@import './about';
+@import './mixin';
+@import './variables';
 @import './base';
 @import './reset';
-@import './essential';
+@import './header';
+@import './main';
+@import './about';
 @import './advantages';
-
-
+@import './integrations';
+@import './team';
