@@ -79,6 +79,7 @@ a {
   background-color: rgba(19, 19, 21, 0.5019607843);
   padding-top: 16px;
   padding-bottom: 16px;
+  font-family: "Roboto";
 }
 @media screen and (max-width: 1140px) {
   .header {
@@ -137,6 +138,7 @@ a {
 .main {
   padding-top: 80px;
   padding-bottom: 32px;
+  font-family: "Roboto";
 }
 @media screen and (max-width: 1140px) {
   .main {
@@ -246,6 +248,7 @@ a {
   background-image: url(../images/Rectangle\ .png);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: "Roboto";
 }
 .about__header {
   display: flex;
@@ -287,6 +290,7 @@ a {
 .about__header-headline {
   font-size: 48px;
   font-weight: 500;
+  font-family: "Roboto";
   letter-spacing: 0.2em;
   white-space: nowrap;
   color: #FFFFFF;
@@ -365,6 +369,7 @@ a {
 
 .advantages {
   padding: 128px 0 64px 0;
+  font-family: "Roboto";
 }
 .advantages__header {
   display: flex;
@@ -380,6 +385,7 @@ a {
 .advantages__header-title {
   font-size: 28px;
   font-weight: 10;
+  font-family: "Roboto";
   letter-spacing: 0.2em;
   white-space: nowrap;
   color: #FFFFFF;
@@ -462,6 +468,7 @@ a {
 .integrations {
   padding-top: 137px;
   padding-bottom: 128px;
+  font-family: "Roboto";
 }
 .integrations__header {
   display: flex;
@@ -519,6 +526,7 @@ a {
   padding-top: 128px;
   padding-bottom: 128px;
   color: #FFFFFF;
+  font-family: "Roboto";
 }
 .team__header {
   display: flex;
@@ -601,4 +609,19 @@ a {
     font-size: 24px;
     max-width: 161px;
   }
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoCondensed-Bold.eot");
+  src: url("RobotoCondensed-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoCondensed-Regular.woff") format("woff"), url("../fonts/RobotoCondensed-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoCondensed-Bold.eot");
+  src: url("../fonts/RobotoCondensed-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoCondensed-Bold.woff") format("woff"), url("../fonts/RobotoCondensed-Bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }/*# sourceMappingURL=style.css.map */
