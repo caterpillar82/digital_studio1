@@ -30,8 +30,8 @@
       <div class="main__wrap">
         <div class="main__wrap-line"></div>
         <picture class="main__wrap-preview">
-          <source srcset="./images/astronaut_3.png" media="(max-width: 640px)">
-          <source srcset="./images/astronaut_2.png" media="(max-width: 992px)">
+          <source src="./images/astronaut3.png" media="(max-width: 640px)">
+          <source src="./images/astronaut2.png" media="(max-width: 992px)">
           <img src="./images/astronaut.png" alt="Астронавт"> 
         </picture>
         <h1 class="main__wrap-title"> DIGITAL-СТУДИЯ
@@ -137,6 +137,94 @@
         </div>
       </div>
     </section>
+
+    <section class="feedback">
+    <div class="container">
+      <header class="section-header section-header_reverse">
+       <h2 class="section-header__title">ОБРАТНАЯ СВЯЗЬ</h2>
+       <div class="section-header__line"></div>
+    </header>
+
+  <form action="" class="form">
+    <div class="form__values">
+      <div class="form__item">
+        <lable class="form__item-name">ФИО*</lable>
+        <input type="text" class="form__item-input">
+      </div>
+
+      <div class="form__item">
+        <lable class="form__item-name">Комментарий*</lable>
+        <input type="text" class="form__item-input">
+      </div>
+
+      <div class="form__item">
+        <lable class="form__item-name">Номер телефона*</lable>
+        <input type="text" class="form__item-input">
+      </div> 
+    </div>
+
+    <label for="check" class="form__item-check">
+      <input type="checkbox" id="check">
+      Согласен на обработку персональных данных.Ознакомлен с политикой
+      конфиденциальности.
+    </label>
+      
+    <button class="form__item-submit">
+      Перезвонить
+    </button>
+
+    </form>
+  </div>
+
+    <picture class="main__wrapper-image" >
+        <source src="/images/Sputnic-Mobile.png" media="(max-width:680px)">
+        <source src="/images/Sputnik-Table.png" media="(max-width:768px)">
+        <img  class="feedback__sputnic" src="/images/Sputnic-Decktop.png" alt="Sputnik">
+      </picture>
+
+    <div class="feedback__wpap"></div>
+  </section>
+</div>
+
+
+
+<section class="portfolio container">
+  <header class="section-header section-header_reverse-dark">
+    <h2 class="section__header-title">ПОРТФОЛИО</h2>
+    <div class="section__header-line"></div>
+  </header>
+
+  <div class="portfolio__inner">
+    <h3 class="portfolio__inner-title">
+      Сайт бренда обуви ELKLAND
+    </h3>
+
+  <div class="portfolio__inner-descr">
+    <p class="descr__item">
+    Мы разработали сайт для презентации моделей обуви 
+    бренда ELKLAND.У пользователя есть возможность не только ознакомиться 
+    с актуальным каталогом,но и оставить заявку на оптовый заказ или дилерство.
+    </p>
+
+    <ul class="descr__list">
+     <li class="descr__list-item">
+      <span class="descr__list-bold">Backend:</span> Laravel, PHP
+    </li>
+    <li class="descr__list-item">
+      <span class="descr__list-bold">Frontend:</span> HTML5, SCSS, JavaScript
+    </li>  
+    <li class="descr__list-item">
+      <span class="descr__list-bold">UX/UI:</span> Adobe XD
+    </li>
+  </ul>
+</div>
+
+    <picture class="portfolio__inner-picture">
+      <source src="/images/Porfolio-Mobile.png" media="(max-width:768px)">
+      <img  class="porfolio__inner-preview" src="/images/Porfolio-Desctop.png" alt="Portfolio">
+    </picture>  
+</div>
+</section>
 
     <section></section>
 

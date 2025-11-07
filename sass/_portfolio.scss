@@ -1,0 +1,132 @@
+.portfolio {
+  padding-top: 137px;
+}
+
+.portfolio__inner {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 515px;
+}
+
+@media screen and (max-width:1040px) {
+  .portfolio__inner {
+    max-height: max-content;
+  } 
+}
+
+.section__header-title {
+  font-size: 24px;
+}
+
+@media screen and (max-width:1040px) {
+  .section__header-title {
+    font-size: 22px;
+  } 
+}
+
+.portfolio__inner-title {
+  width: 392px;
+  margin-bottom: 32px;
+  font-size: 30px;
+}
+
+@media screen and (max-width:1200px) {
+  .portfolio__inner-title {
+    width: 100%;
+  } 
+}
+
+@media screen and (max-width:1040px) {
+  .portfolio__inner-title {
+    order: 1;
+  } 
+}
+
+.portfolio__inner-descr {
+  width: 392px;
+  font-size: 20px;
+}
+
+@media screen and (max-width:1040px) {
+  .portfolio__inner-descr {
+    order: 3;
+  } 
+}
+
+.descr__item {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+@media screen and (max-width:1040px) {
+  .descr__item {
+    margin-bottom: 10px;
+    font-size: 18px;
+  } 
+}
+
+.descr__list-bold {
+   font-size: 24px;
+   margin-bottom: 12px;
+}
+
+@media screen and (max-width:1040px) {
+  .descr__list-bold {
+    margin-bottom: 12px;
+    font-size: 18px;
+  } 
+}
+
+.descr__list-item {
+  padding: 5px;
+}
+
+.portfolio__inner-picture {
+  order: 2;
+}
+
+@media screen and (max-width:1040px) {
+  .portfolio__inner-picture {
+    order: 2;
+  } 
+}
+
+.portfolio__inner-preview {
+  width: clamp(352px,68vw, 809px);
+  height: clamp(224px, 44vw, 515px);
+}
+
+@media screen and (max-width:1200px) {
+  .portfolio__inner-preview {
+  width: clamp(352px,68vw, 809px);
+  height: clamp(224px, 44vw, 515px);
+  } 
+}
+
+@media screen and (max-width:640px) {
+  .portfolio__inner-preview {
+    display: inline-block;
+    margin: 0 auto;
+  } 
+}
+.section-header_reverse-dark {
+  flex-direction: row-reverse;
+  color: #000000;
+}
+
+.section__header-line {
+  width: 172px ;
+  background-color: #000000;
+  flex: 1;
+  height: 1px;
+}
+
+@media screen and (max-width: 384px) {
+  .section__header-line {
+  width: 50%;
+  }
+}
+
+
